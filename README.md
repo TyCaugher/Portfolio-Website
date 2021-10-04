@@ -1,5 +1,7 @@
 # Personal Portfolio Website
 
+Personal resume/portfolio website built in React.js.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
