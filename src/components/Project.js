@@ -11,7 +11,11 @@ import React from 'react'
 
 const Project = () => {
     return (
-        <div>
+        <div class="infoContainer">
+            <div class="greeting">
+                <h2>A bit of work i've done</h2>
+            </div>
+            <div></div>
         </div>
     )
 }

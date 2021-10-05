@@ -11,11 +11,11 @@ const Navbar = () => {
     
 
     return (
-        <div class={`navContainer`}>
-            <div class="homeIcon">Tk.</div>
-            <div class="button"><BsFillPersonFill />About</div>
-            <div class="button"><AiFillProject />Projects</div>
-            <div class="button"><RiFilePaper2Fill />Download Resume</div>
+        <div class="navContainer nav_color">
+            <div class="homeIcon nav_color">Tk.</div>
+            <div class="button nav_color"><BsFillPersonFill />About</div>
+            <div class="button nav_color"><AiFillProject />Projects</div>
+            <div class="button nav_color"><RiFilePaper2Fill />Download Resume</div>
         </div>
     )
 }
