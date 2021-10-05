@@ -10,7 +10,6 @@ export const PortfolioContainer = () => {
 
     return (
         <div>
-            <Navbar />
             <Header />
             <About />
             <Project />
