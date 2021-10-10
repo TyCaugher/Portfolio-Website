@@ -1,7 +1,9 @@
+
+
 .navContainer {
     padding: 10px;
 
-
+    background: transparent;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -15,22 +17,28 @@
 
 }
 
-.nav_color {
-    background-color: transparent;
+.navContainer.active {
+    background: #212121;
 }
+
 
 .button {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    background-color: transparent;
 }
 
-
+.icon {
+    background-color: transparent;
+}
 
 .homeIcon {
     font-family: sans-serif;
     color: #FF5D4A;
     font-size: 1.7rem;
     font-weight: 500;
+    background-color: transparent;
 }

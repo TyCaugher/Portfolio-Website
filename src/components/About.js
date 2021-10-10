@@ -8,8 +8,8 @@ import React from 'react'
 
 const About = () => {
     return (
-        <div class="infoContainer">
-            <div class="greeting">
+        <div className="infoContainer">
+            <div className="greeting">
                 <h2>A Bit About Me</h2>
                 <br/>
                 <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>

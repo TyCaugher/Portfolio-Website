@@ -23,6 +23,10 @@ p {
     margin-bottom: 20%;
 }
 
+.infoContainer.projects {
+    justify-content: flex-start;
+}
+
 .greeting {
     font-size: 1.7rem;
     max-width: 40%;

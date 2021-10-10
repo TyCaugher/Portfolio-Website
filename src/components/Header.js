@@ -6,9 +6,9 @@ const Header = () => {
 
     return (
         <div className="infoContainer">
-            <div class="greeting">
-                <h2>Hello Worlds! 👋 <br/>I'm <span class="emph">{name}</span></h2>
-                Inspired <Typewriter class="box-field"
+            <div className="greeting">
+                <h2>Hello Worlds! 👋 <br/>I'm <span className="emph">{name}</span></h2>
+                Inspired <Typewriter className="box-field"
                     options={{loop:true,}}
                     onInit={(typewriter) => {
                         typewriter.typeString('<span class="emph"><b>Developer.</b></span>')
@@ -27,7 +27,7 @@ const Header = () => {
                     }}
                 />
             </div>
-            <div class="greeting">
+            <div className="greeting">
                 Cool image over here.
             </div>
         </div>
